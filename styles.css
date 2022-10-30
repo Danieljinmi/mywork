@@ -231,6 +231,14 @@ border: none;}
         
         margin-top: 80px;
         
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+            flex-direction: column;
+            margin-top: 120px;
+        
+        
        }
 
 
@@ -445,4 +453,11 @@ font-size: 24px;}
         height: 2700px;
     }
  
+    .wf{
+        color: #00333C;
+        font-family: "Poppins";
+        font-weight: 500;
+        font-size: 28px;
+       }
+
 }
