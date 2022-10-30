@@ -417,7 +417,8 @@ font-size: 24px;}
     }
 
     .footer{
-        font-size: 18px;
+        font-size: 16px;
+        text-align: center;
     }
     .vertical1{
         height: 2900px;
