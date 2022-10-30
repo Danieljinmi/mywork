@@ -222,7 +222,7 @@ border: none;}
 
 
        .wok{
-        width: 1727.5px;
+        width: auto;
         height: 240px;
         margin-top: 50px;
        }
@@ -378,8 +378,9 @@ font-size: 24px;}
         height: 288.41px;
     }
     .wok{
-        width: 700px;
-        height: 100px;
+        width: 480px;
+        height: 80px;
+       
     }
 
     .hi{
@@ -424,7 +425,5 @@ font-size: 24px;}
     .vertical2{
         height: 2900px;
     }
-    .midline{
-        width: max-content;
-    }
+ 
 }
