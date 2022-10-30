@@ -294,6 +294,10 @@ border: none;}
     font-weight: 400;
 font-size: 24px;}
 
+.wor2{
+    display: none;
+}
+
 @media only screen and (max-width: 700px)
 {
     .vertical1{
@@ -378,18 +382,22 @@ font-size: 24px;}
         height: 288.41px;
     }
     .wok{
-        width: 480px;
-        height: 80px;
+        display: none;
        
+    }
+    .wor2{
+        display: flex;
+        width: 345.5px;
     }
 
     .hi{
         font-size: 40px;
         -webkit-text-stroke-width: 1px;
+        margin-right: 100px;
     }
 
     .contactme{
-        margin-left: 50px;
+        margin-left: 5px;
        
     }
 
@@ -398,7 +406,7 @@ font-size: 24px;}
         width: 320px;
       
         margin-top: 5px;
-        padding-right: 20px;
+        padding-right: 1px;
     }
     .br1{
         display: none;
@@ -421,10 +429,10 @@ font-size: 24px;}
         text-align: center;
     }
     .vertical1{
-        height: 2900px;
+        height: 2700px;
     }
     .vertical2{
-        height: 2900px;
+        height: 2700px;
     }
  
 }
