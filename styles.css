@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;0,700;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #E2F1EC;
+
+}
+
+
+.logo{
+    height: 60px;
+    width: 60px;
+}
+
+li, a{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    color: #00A1A8;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10%;
+   
+}
+
+.logo{
+    cursor: pointer;
+  
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+display: inline-block;
+padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    padding: 15px;
+}
+
+
+.nav_links li a:hover {
+    color: #00333C;
+}
+
+.topline{
+    border-top: 3px solid #00A1A8;
+    width: auto;
+  
+    top: 70px;
+
+}
+
+.vertical1{
+    border-left: 3px solid #00A1A8;
+    height: 2500px;
+    position:absolute;
+    left: 107px;
+}
+
+
+.vertical2{
+    border-left: 3px solid #00A1A8;
+    height: 2500px;
+    position:absolute;
+    right: 107px;
+}
+
+
+.top{
+    background-color: #E2F1EC;
+ 
+}
+
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 40px;
+    justify-content: center;
+    margin-top: 105px;
+    color: #00333C;
+}
+
+.intro{
+    font-size: 24px;
+    gap: 1px;
+    line-height: 24px;
+    font-weight: 200;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 26px;
+}
+
+
+
+.button{color: #E2F1EC;
+    background-color: #00ABB3;
+    width: 294px;
+    height: 55px;
+    left: 485px;
+    font-family: "Poppins";
+    
+    font-weight: 500px;
+    font-size: 24px;
+    border-radius: 10px;
+border: none;}
+    .button:hover{ opacity: 50%;
+        
+    }
+
+    .button2 { box-sizing: border-box;
+        color: #00ABB3;
+  
+        height: 55px;
+        width: 294px;
+        left: 720px;
+      /*  top: 518px;  */
+        background-color: #E2F1EC;
+    border: 3px;
+   
+    border: solid;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 24px;
+    gap: 10px;
+    font-family: "Poppins";
+    }
+
+    .button2:hover{background-color: #00ABB3; color: #00333C;}
+
+    .buttondiv {
+        margin-top: 50px;
+        display: flex;
+        gap: 30px;
+        
+    }
+
+
+    .projects{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 700px;
+       }
+
+       .orilum{
+        width: 568px;
+        height: 485px;
+        transition: transform .2s;
+     
+       }
+    .orilum :hover{
+        transform: scale(1.5);
+    }
+
+      .oril{
+        transition: transform .2s;
+      }
+
+      .oril :hover{
+        transition: transform .2s;
+      }
+       .assigncare{
+        width: 568px;
+        height: 485px;
+       }
+    
+       .ilc{
+        width: 568px;
+        height: 485px;
+     
+       }
+    
+       .cloudplexo{
+        display: block;
+        width: 568px;
+        height: 485px;
+        z-index:999;
+     
+       }
+    
+    
+       .projects2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 380px;
+    
+       }
+
+
+       .midline{
+        border-top: 3px solid #00A1A8;
+      
+     width: 1500px;
+    margin-top: 80px;
+       }
+
+   
+
+
+       .wok{
+        width: 926px;
+        height: 130px;
+        margin-top: 50px;
+       }
+
+
+    .contactme{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: center;
+        align-content: center;
+        margin-left: 200px;
+    
+    }
+    
+    .hi{
+        color: #E2F1EC;
+        font-family: "Poppins";
+        font-size: 80px;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #00ABB3;
+        margin-top: 40px;
+    
+    }
+    
+    .about_me{
+        font-size: 20px;
+        font-family: "Poppins";
+        color: #00333C;
+        margin-top: 10px;
+     padding-right: 200px;
+    font-weight: 400;
+    }
+    
+    
+     .say_hello{
+    background-color: #00ABB3;
+    color: #E2F1EC;
+    width: 204px;
+    height: 55px;
+    left: 302px;
+    border-radius: 10px;
+    border: none;
+    
+    font-family: "Poppins";
+    font-size: 24px;
+    
+    
+     }
+    .say_hello:hover{opacity: 50%;}
+    .button_fin{
+        padding-top: 20px;
+        padding-bottom: 180px;
+    }
+    
+    .footer{
+        display: flex;
+        font-family: "Poppins";
+        color: #00333C;
+        justify-content: center;
+        justify-items: center;
+        height: 50px;
+    font-weight: 400;
+font-size: 24px;}
+
+@media only screen and (max-width: 700px)
+{
+    .vertical1{
+        left: 12px;
+    }
+
+    .vertical2{
+        right: 12px;
+    }
+    .daniel{
+        font-size: 40px;
+    }
+
+    .intro{
+        font-size: 24px;
+        line-height: 28px;
+        width: 348px;
+        height: 165px;
+        text-align: center;
+        font-weight: 300;
+    }
+    .break{
+        display: none;
+    }
+
+    .buttondiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.button{
+
+    font-size: 18px;
+    font-size: 18px;
+    width: 339px;
+    height: 47.14px;
+   
+
+}
+    .button2{
+        
+        font-size: 18px;
+        width: 339px;
+        height: 47.14px;
+        margin-top: 5%;
+        
+    }
+
+    .buttondiv{
+        gap: 0;
+        
+    }
+
+    .projects{
+        flex-direction: column;
+      
+    }
+
+    .orilum{
+        width: 337.79px;
+        height: 288.41px;
+
+    }
+
+    .assigncare{
+        width: 337.79px;
+        height: 288.41px;
+    }
+
+    .projects2{
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .cloudplexo{
+        width: 337.79px;
+        height: 288.41px;
+    }
+    .ilc{
+        width: 337.79px;
+        height: 288.41px;
+    }
+    .wok{
+        width: 302px;
+        height: 42.4px;
+    }
+
+    .hi{
+        font-size: 40px;
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .contactme{
+        margin-left: 50px;
+       
+    }
+
+    .about_me{
+        font-size: 18px;
+        width: 320px;
+      
+        margin-top: 5px;
+        padding-right: 20px;
+    }
+    .br1{
+        display: none;
+    }
+    .br2{
+        display: none;
+    }
+    .br3{
+        display: none;
+    }
+    .br4{display: none;}
+    .say_hello{
+        width: 204px;
+        height: 55px;
+        font-size: 24px;
+    }
+
+    .footer{
+        font-size: 18px;
+    }
+    .vertical1{
+        height: 2900px;
+    }
+    .vertical2{
+        height: 2900px;
+    }
+}
