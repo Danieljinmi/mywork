@@ -393,20 +393,30 @@ font-size: 24px;}
     .hi{
         font-size: 40px;
         -webkit-text-stroke-width: 1px;
-        margin-right: 100px;
+        margin-right: 60px;
+       
     }
 
     .contactme{
-        margin-left: 5px;
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+      
+        justify-content: center;
        
     }
 
     .about_me{
+        display: flex;
         font-size: 18px;
         width: 320px;
       
-        margin-top: 5px;
+        margin-top: 20px;
         padding-right: 1px;
+        align-content: center;
+      
+        font-weight: 400;
+        
     }
     .br1{
         display: none;
@@ -418,7 +428,7 @@ font-size: 24px;}
         display: none;
     }
     .br4{display: none;}
-    .say_hello{
+    .say_hello{ 
         width: 204px;
         height: 55px;
         font-size: 24px;
